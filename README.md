@@ -24,6 +24,10 @@ Using LuaRocks (http://luarocks.org):
     cd lua-cmsgpack/
     sudo luarocks make rockspec/lua-cmsgpack-scm-1.rockspec
 
+Using LuaDist (http://www.luadist.org):
+
+    luadist install lua-cmsgpack
+
 If you embed Lua and all modules into your C project, just add the
 `lua_cmsgpack.c` file and call the following function after creating the Lua
 interpreter:
